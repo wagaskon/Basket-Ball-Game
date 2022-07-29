@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="firstd">
+        <!-- <div clas="main"> -->
+            <div class="container">
+                <div class="Box">
+                    <h3 id="Title">Team 1</h3>
+                    <div class="homeScreen">
+                        <p id="D1">0</p>
+                    </div>
+
+                    <div class="smallBtns">
+                        <button class="btn" id="btn1" onclick="plusone('D1')">+1</button>
+                        <button class="btn" id="btn2" onclick="plustwo('D1')">+2</button>
+                        <button class="btn" id="btn2" onclick="plusthree('D1')">+3</button>
+                    </div>
+                    <div class="more-score">
+                        <input type="text" class="txt" id="goal" placeholder="0">
+                    </div>
+                    <div class="smallBtns">
+                        <button class="btn" id="add" onclick="other('D1')">Add</button>
+                    </div>
+                </div>
+
+                <div class="Box">
+                    <h3 id="Title">Team 2</h3>
+                    <div class="homeScreen">
+                        <p id="K2">0</p>
+                    </div>
+
+                    <div class="smallBtns">
+                        <button class="btn" id="btn1" onclick="plusone('K2')">+1</button>
+                        <button class="btn" id="btn2" onclick="plustwo('K2')">+2</button>
+                        <button class="btn" id="btn2" onclick="plusthree('K2')">+3</button>
+                    </div>
+                    <div class="more-score">
+                        <input type="text" class="txt" id="gal" placeholder="0">
+                    </div>
+                    <div class="smallBtns">
+                        <button class="btn" id="add" onclick="other('K2')">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ply">
+                <div>
+                    <button id="strt" onclick="play()">Play</button>
+                    
+                </div>
+                <div>
+                    <h3 id="scre">Score</h3>
+                </div>
+
+
+            </div>
+            <div>
+                <div>
+                    <button id="strt" onclick="Restart()">Restart Game</button>
+                    
+                </div>
+
+            </div>
+        <!-- </div> -->
+
+
+
+
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
